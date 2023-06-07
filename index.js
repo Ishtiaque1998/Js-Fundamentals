@@ -11,4 +11,17 @@ console.log(numbers);
 
 //finding position of an element in an array.
 var pos= numbers.indexOf(900);
-console.log(pos);
+// console.log(pos);
+
+var names=['Ishti','Afnan','Sakib','Ayman'];
+console.log(names);
+
+
+names[3]='Raihan';
+console.log(names);
+
+var position= names.indexOf('Afnan');
+console.log(position);
+
+var name= names[2];
+console.log(name);
